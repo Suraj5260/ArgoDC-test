@@ -35,7 +35,7 @@ In this guide, we walk through deploying a sample Nginx application using Argo C
 ## Configuring Argo CD
 1. Accessed the Argo CD UI by port-forwarding the Argo CD server:
    ```bash
-   kubectl port-forward svc/argocd-server -n argocd 8080:443
+   kubectl port-forward svc/argocd-server -n argocd 8080:443 
    ```
 2. Logged into the Argo CD UI (using the default admin credentials).
 3. Created a new application (e.g., `test-01`) in the Argo CD UI.
